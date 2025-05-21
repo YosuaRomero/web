@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenBoost – Dark Choco Oat</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #d4e8d4; /* Fondo verde claro */
+      color: #333;
+      font-size: 18px;
+    }
+    header {
+      background-color: #2e5d34;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+    .hero {
+      position: relative;
+      height: 400px;
+      background-color: #222;
+    }
+    .hero video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.6;
+    }
+    .hero div {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 2.5rem;
+      text-align: center;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #2e5d34;
+      font-size: 2rem;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .feature {
+      background: #fff;
+      border-radius: 10px;
+      padding: 20px;
+      flex: 1 1 300px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .footer {
+      background-color: #2e5d34;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .cta {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
+    }
+    .cta:hover {
+      background-color: #388e3c;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #2e5d34;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .testimonial {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      font-size: 1.1rem;
+    }
+    .image-section {
+      text-align: center;
+      margin: 40px 0;
+    }
+    .image-section img {
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GreenBoost – Dark Choco Oat</h1>
+    <p>Energía Plant-Based con Sabor que Inspira</p>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Acerca de</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <video autoplay muted loop>
+      <source src="video-hero.mp4" type="video/mp4">
+      Tu navegador no soporta la etiqueta de video.
+    </video>
+    <div>100% Natural, Delicioso y Funcional</div>
+  </section>
+  <div class="image-section">
+    <img src="/mnt/data/A_packaging_photograph_photograph_showcases_a_\"Gre.png" alt="Empaque GreenBoost">
+  </div>
+  <section class="section">
+    <h2>¿Qué es GreenBoost?</h2>
+    <p>Una barra energética plant-based con chocolate oscuro, avena sin gluten, proteína vegetal y superalimentos como chía y dátiles. Diseñada para impulsarte antes o después del ejercicio, o simplemente cuando lo necesites.</p>
+  </section>
+  <section class="section">
+    <h2>Beneficios Clave</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>20g de proteína vegetal</h3>
+        <p>Ideal para la recuperación muscular y energía sostenida.</p>
+      </div>
+      <div class="feature">
+        <h3>100% Plant-Based</h3>
+        <p>Sin ingredientes de origen animal, respetuoso con el planeta y tu cuerpo.</p>
+      </div>
+      <div class="feature">
+        <h3>Sin Azúcares Refinados</h3>
+        <p>Endulzada naturalmente con dátiles para un perfil saludable.</p>
+      </div>
+    </div>
+  </section>
+  <section class="section" style="text-align: center;">
+    <h2>¡Pruébala Hoy!</h2>
+    <a href="#" class="cta">Comprar Ahora</a>
+    <br><br>
+    <a href="catalogo-greenboost.pdf" class="cta" download>Descargar Catálogo</a>
+    <a href="informacion-nutricional-greenboost.pdf" class="cta" download>Información Nutricional</a>
+  </section>
+  <section class="section">
+    <h2>Quiénes Somos</h2>
+    <p>Somos un equipo apasionado por la nutrición saludable y sostenible. GreenBoost nace con el propósito de ofrecer snacks que alimenten tu cuerpo, respeten el planeta y deleiten tu paladar. Creemos que la energía natural y funcional debe estar al alcance de todos.</p>
+  </section>
+  <section class="section">
+    <h2>Testimonios</h2>
+    <div class="testimonial">
+      <p><strong>Laura G.</strong> – “¡Me encanta! Siento energía real sin los altibajos del azúcar. El sabor es delicioso.”</p>
+    </div>
+    <div class="testimonial">
+      <p><strong>Andrés R.</strong> – “Perfecta para mi dieta vegana. Las como después de entrenar y me ayudan muchísimo.”</p>
+    </div>
+    <div class="testimonial">
+      <p><strong>Daniela P.</strong> – “GreenBoost ha cambiado mi rutina. La como antes de correr y me da la energía perfecta.”</p>
+    </div>
+    <div class="testimonial">
+      <p><strong>Jorge L.</strong> – “Excelente para llevar a cualquier lugar. Me llena de energía sin causar malestares.”</p>
+    </div>
+  </section>
+  <section class="section">
+    <h2>Contáctanos</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+  <footer class="footer">
+    <p>&copy; 2025 GreenBoost. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
